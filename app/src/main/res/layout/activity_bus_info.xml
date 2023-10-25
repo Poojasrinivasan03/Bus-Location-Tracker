@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".BusInfo">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/choose"
+        android:text="@string/choose_bus_no2"
+        android:padding="30dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bus1"
+        android:layout_below="@id/choose"
+        android:layout_marginTop="21dp"
+        android:layout_centerInParent="true"
+        android:text="@string/bus_no_01" />
+    <Button
+        android:layout_width="133dp"
+        android:id="@+id/bus3"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bus1"
+        android:layout_marginTop="21dp"
+        android:layout_centerInParent="true"
+        android:text="@string/bus_no_03" />
+    <Button
+        android:layout_width="133dp"
+        android:id="@+id/bus4"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bus3"
+        android:layout_marginTop="21dp"
+        android:layout_centerInParent="true"
+        android:text="@string/bus_no_04" />
+    <Button
+        android:layout_width="133dp"
+        android:id="@+id/bus5"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bus4"
+        android:layout_marginTop="21dp"
+        android:layout_centerInParent="true"
+        android:text="@string/bus_no_05" />
+    <Button
+        android:layout_width="133dp"
+        android:id="@+id/bus6"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bus5"
+        android:layout_marginTop="21dp"
+        android:layout_centerInParent="true"
+        android:text="@string/bus_no_06" />
+    <Button
+        android:layout_width="133dp"
+        android:id="@+id/bus7"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bus6"
+        android:layout_marginTop="21dp"
+        android:layout_centerInParent="true"
+        android:text="@string/bus_no_07" />
+    <Button
+        android:layout_width="133dp"
+        android:id="@+id/bus9"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bus7"
+        android:layout_marginTop="21dp"
+        android:layout_centerInParent="true"
+        android:text="@string/bus_no_09" />
+    <Button
+        android:layout_width="133dp"
+        android:id="@+id/bus10"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bus9"
+        android:layout_marginTop="21dp"
+        android:layout_centerInParent="true"
+        android:text="@string/bus_no_10" />
+    <Button
+        android:layout_width="133dp"
+        android:id="@+id/nextin"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bus10"
+        android:layout_marginTop="21dp"
+        android:layout_centerInParent="true"
+        android:text="@string/next" />
+
+
+
+
+</RelativeLayout>

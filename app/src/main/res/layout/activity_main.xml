@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/img"
+        tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/choo"
+        android:layout_marginTop="80dp"
+        android:text="@string/welcome"
+        android:padding="30dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/choos"
+        android:layout_marginTop="80dp"
+        android:layout_below="@+id/choo"
+        android:text="SELECT OPTION"
+        android:padding="30dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:gravity="center"/>
+    <Button
+        android:layout_width="133dp"
+        android:id="@+id/next"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:layout_centerInParent="true"
+        android:text="USER" />
+    <Button
+        android:layout_width="133dp"
+        android:id="@+id/driver"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/next"
+        android:layout_centerInParent="true"
+        android:text="DRIVER" />
+
+</RelativeLayout>

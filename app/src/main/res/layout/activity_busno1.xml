@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".Busno1">
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:stretchColumns="0,1,2">
+        <!-- Table rows and cells will go here -->
+        <TableRow>
+            <!-- Column 1 -->
+            <TextView
+                android:layout_width="0dp"
+
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/s_no"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <!-- Column 2 -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/stops1"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+
+            <!-- Column 3 -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/time"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+        </TableRow>
+        <TableRow android:layout_marginTop="50dp">
+            <!-- Column 1 -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_01"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <!-- Column 2 -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/ramanathapuram"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+
+            <!-- Column 3 -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_7_00"
+                android:gravity="end"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+        </TableRow>
+        <TableRow android:layout_marginTop="20px">
+            <!-- Column 1 -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_02"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <!-- Column 2 -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/gem_hospital"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+
+            <!-- Column 3 -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_7_05"
+                android:gravity="end"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+        </TableRow>
+        <TableRow android:layout_marginTop="20px">
+            <!-- Column 1 -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_03"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <!-- Column 2 -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/puliyakulam"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+
+            <!-- Column 3 -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_7_10"
+                android:gravity="end"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+        </TableRow>
+        <TableRow android:layout_marginTop="20px">
+            <!-- Column 1 -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_04"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <!-- Column 2 -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/saveripalayam"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+
+            <!-- Column 3 -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_7_12"
+                android:gravity="end"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+        </TableRow>
+        <TableRow android:layout_marginTop="20px">
+            <!-- Column 1 -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_05"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <!-- Column 2 -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/gv_residency"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+
+            <!-- Column 3 -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_7_15"
+                android:gravity="end"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+        </TableRow>
+        <TableRow android:layout_marginTop="20px">
+            <!-- Column 1 -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_06"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <!-- Column 2 -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/upilipalayam"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+
+            <!-- Column 3 -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_7_18"
+                android:gravity="end"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+        </TableRow>
+        <TableRow android:layout_marginTop="20px">
+            <!-- Column 1 -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_07"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <!-- Column 2 -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/singanallur"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+
+            <!-- Column 3 -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_7_20"
+                android:gravity="end"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+        </TableRow>
+        <TableRow android:layout_marginTop="20px">
+            <!-- Column 1 -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_08"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <!-- Column 2 -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/esi"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+
+            <!-- Column 3 -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_7_25"
+                android:gravity="end"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+        </TableRow>
+        <TableRow android:layout_marginTop="20px">
+            <!-- Column 1 -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_09"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <!-- Column 2 -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/lions_club"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+
+            <!-- Column 3 -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_7_28"
+                android:gravity="end"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+        </TableRow>
+        <TableRow android:layout_marginTop="20px">
+            <!-- Column 1 -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_10"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <!-- Column 2 -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/ramanuja_nagar"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+
+            <!-- Column 3 -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_7_30"
+                android:gravity="end"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+        </TableRow>
+        <TableRow android:layout_marginTop="20px">
+            <!-- Column 1 -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_11"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <!-- Column 2 -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/manis_theatre"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+
+            <!-- Column 3 -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_7_45"
+                android:gravity="end"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+        </TableRow>
+        <TableRow android:layout_marginTop="20px">
+            <!-- Column 1 -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_12"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <!-- Column 2 -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/college"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+
+            <!-- Column 3 -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_8_15"
+                android:gravity="end"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+        </TableRow>
+
+
+
+    </TableLayout>
+    <Button
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bus1"
+        android:layout_below="@id/table"
+        android:layout_marginTop="21dp"
+        android:layout_centerInParent="true"
+        android:text="@string/get_location" />
+
+
+
+
+</RelativeLayout>

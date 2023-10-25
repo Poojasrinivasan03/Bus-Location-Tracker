@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "193334105324",
+    "project_id": "busapp-f95ce",
+    "storage_bucket": "busapp-f95ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193334105324:android:fc0e8ace8d2a6e37d641c9",
+        "android_client_info": {
+          "package_name": "com.example.busapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJuyUczH0hrEKNJuo6iVMq0A77QW9mRnI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
